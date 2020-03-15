@@ -1,5 +1,5 @@
 
-$$("#add_button").on('click',function(){
+$("#add_button").on('click',function(){
   addBurger();
 })
 

@@ -1,5 +1,5 @@
 
-var connection = require("../config/connection.js");const connection = require("./connection");
+const connection = require("./connection");
 const util = require("util");
 
 connection.query = util.promisify(connection.query);

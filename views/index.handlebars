@@ -1,16 +1,16 @@
 <header>
     <nav class="navbar navbar-dark bg-light row d-flex justify-content-center">
-        <h1 class="page_header text-white text-center">Eat  Hamburger!</h1>
+        <h1 class="page_header text-blue text-center">Eat  Hamburger!</h1>
     </nav>
 </header>
 <div class="d-flex justify-content-center">
-    <img src={{SM-Burger}}
+    <img id="burger-img" src="/assets/image/SM-Burger.jpg">
 </div>
 <div class="row">
     <div class="col-6 p-5">
         <ul class="list-group">
             {{#each burgers}}
-            <li class="list-group-item d-flex justify-content-between">{{this.id}}. {{this.burger_name}}<button class="btn btn-primary devour" id={{this.id}}>Devour</button></li>
+            <li class="list-group-item d-flex justify-content-between">{{this.id}}. {{this.burger_name}}<button class="btn btn-primary devour" id={{this.id}}>Eat</button></li>
             {{/each}}
         </ul>
     </div>

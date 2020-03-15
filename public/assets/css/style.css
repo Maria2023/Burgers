@@ -17,3 +17,16 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+
+body {background: yellow}
+
+
+#burger-img {
+  width: 50%
+}
+
+.text-blue
+{
+  color: blue;
+}

@@ -2,7 +2,6 @@ var express = require("express");
 
 var router = express.Router();
 const Burger = require("../models/burger");
-const express = require("express");
 const path = require("path");
 
 

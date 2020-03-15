@@ -1,4 +1,4 @@
-// Import the ORM to create functions that will interact with the database.
+
 var orm = require("../config/orm.js");
 
 const ORM = require("../config/orm");
@@ -10,13 +10,13 @@ class Burger {
 
     async getAllBurgers(){
         let allBurgers = await this.orm.selectAll('burgers','devoured','0');
-        //console.log(allBurgers);
+       
         return allBurgers;
     }
 
     async getAllDevoured(){
         let allBurgers = await this.orm.selectAll('burgers','devoured','1');
-        //console.log(allBurgers);
+        
         return allBurgers;
     }
 
@@ -29,7 +29,7 @@ class Burger {
     }
 
     deleteBurger(){
-        //won't be used
+        
     }
 }
 
